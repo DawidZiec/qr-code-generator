@@ -1,4 +1,4 @@
-# A little script that creates random QR codes every .75 second
+# A little script that creates random QR codes every half a second
 # One block 20px - whole thing 540
 
 import tkinter
@@ -64,19 +64,19 @@ while True:
 
     # top right
     # vertical
-    coordcorner10 = 360, 20, 380, 180
-    squarecorner10 = myCanvas.create_rectangle(coordcorner10, fill="white", outline="white")
+    coordcorner12 = 360, 20, 380, 180
+    squarecorner12 = myCanvas.create_rectangle(coordcorner12, fill="white", outline="white")
     # horizontal
-    coordcorner11 = 360, 160, 520, 180
-    squarecorner11 = myCanvas.create_rectangle(coordcorner11, fill="white", outline="white")
+    coordcorner13 = 360, 160, 520, 180
+    squarecorner13 = myCanvas.create_rectangle(coordcorner13, fill="white", outline="white")
 
     # bottom left
     # vertical
-    coordcorner10 = 160, 360, 180, 520
-    squarecorner10 = myCanvas.create_rectangle(coordcorner10, fill="white", outline="white")
+    coordcorner14 = 160, 360, 180, 520
+    squarecorner14 = myCanvas.create_rectangle(coordcorner14, fill="white", outline="white")
     # horizontal
-    coordcorner11 = 20, 360, 180, 380
-    squarecorner11 = myCanvas.create_rectangle(coordcorner11, fill="white", outline="white")
+    coordcorner15 = 20, 360, 180, 380
+    squarecorner15 = myCanvas.create_rectangle(coordcorner15, fill="white", outline="white")
     
     # drawing
     myCanvas.pack()
