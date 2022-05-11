@@ -1,4 +1,4 @@
-# A little script that creates random QR codes every half a second
+# A little script that creates random QR codes every .75 second
 # One block 20px - whole thing 540
 
 import tkinter
